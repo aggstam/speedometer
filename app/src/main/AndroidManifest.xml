@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stamatiou.speedometer">
+
+<!--
+    This Android application simulates a simple speedometer, with violations history.
+    Users can monitor their current speed, their violation history list and violations of all users in a map.
+    Firebase is used for user management and storing data.
+
+    Author: Aggelos Stamatiou, July 2020
+-->
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SpeedometerActivity" />
+        <activity
+            android:name=".UserViolationsListActivity"
+            android:label="@string/my_violations_list" />
+        <activity
+            android:name=".AllViolationsMapActivity"
+            android:label="@string/title_activity_all_violations_map" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCkgzY2NGGT9xKiEz0bVrDO0-x8g745Rn0" />
+    </application>
+
+</manifest>

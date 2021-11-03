@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.stamatiou.speedometer.SpeedometerActivity">
+    <item
+        android:id="@+id/userViolations"
+        android:title="@string/my_violations_list"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/allViolations"
+        android:title="@string/all_violations_map"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/signOut"
+        android:title="@string/sign_out"
+        app:showAsAction="never" />
+</menu>

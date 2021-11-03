@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Speedometer</string>
+    <string name="zero_speed">0.00 km/h</string>
+    <string name="provider_disabled">Location Provider disabled...</string>
+    <string name="provider_status_changed">Location Provider status changed...</string>
+    <string name="permission_not_granted">Location Permission not granted...</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="pass_reset">Pass Reset</string>
+    <string name="speed_limit_warning">Warning! You are about to exceed the speed limit...</string>
+    <string name="speed_limit_exceeded">You have exceeded the speed limit, please slow down!</string>
+    <string name="sign_out">Sign out</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="my_violations_list">My Violations</string>
+    <string name="all_violations_map">All Violations Map</string>
+    <string name="speed">Speed:</string>
+    <string name="no_violations_message">Good job! You have no violations!!</string>
+    <string name="internet_provider_disabled">Internet provider is disabled...</string>
+    <string name="title_activity_all_violations_map">All Violations</string>
+</resources>
