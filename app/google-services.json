@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "270385615545",
-    "firebase_url": "https://speedometer-80d2a.firebaseio.com",
-    "project_id": "speedometer-80d2a",
-    "storage_bucket": "speedometer-80d2a.appspot.com"
+    "project_number": "YOUR_KEY_HERE",
+    "firebase_url": "YOUR_KEY_HERE",
+    "project_id": "YOUR_KEY_HERE",
+    "storage_bucket": "YOUR_KEY_HERE"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:270385615545:android:0be5be0b960e81fec70168",
+        "mobilesdk_app_id": "YOUR_KEY_HERE",
         "android_client_info": {
           "package_name": "com.stamatiou.speedometer"
         }
       },
       "oauth_client": [
         {
-          "client_id": "270385615545-mabca4srlm4lnoash4vdlhdcgp6pnk6i.apps.googleusercontent.com",
+          "client_id": "YOUR_KEY_HERE",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCo7pvc4esuDIu9VmfvbFtyHmEEvhU_9lE"
+          "current_key": "YOUR_KEY_HERE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "270385615545-mabca4srlm4lnoash4vdlhdcgp6pnk6i.apps.googleusercontent.com",
+              "client_id": "YOUR_KEY_HERE",
               "client_type": 3
             }
           ]
