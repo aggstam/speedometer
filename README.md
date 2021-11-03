@@ -5,6 +5,7 @@ Users can monitor their current speed, their violation history list and violatio
 <br>
 Firebase is used for user management and storing data.
 <br>
+<br>
 Activities:
 - Login: Authenticates users before using the application.
 - Speedometer: Monitors user's current speed and report violations.
